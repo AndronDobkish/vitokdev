@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+  
+    background-image: url('images/background23.png'), url('images/background.png');
+    background-repeat: repeat-x, no-repeat;
+    background-position: top left, center;
+    background-size: auto 80px, cover;
+    
+    
+    color: #151415;
+    font-family: Bender, sans-serif;
+    min-height: 100vh;
+}
+
+.content {
+    padding-top: 100px;
+    min-height: 100vh;
+}
