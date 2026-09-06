@@ -9,16 +9,15 @@ html, body {
 }
 
 body {
-  
     background-image: url('images/background23.png'), url('images/background.png');
-    background-repeat: repeat-x, no-repeat;
-    background-position: top left, center;
-    background-size: auto 80px, cover;
+    background-repeat: repeat-x, repeat;
+    background-position: top left, top left;
+    background-size: auto 80px, auto;
     
-    
-    color: #151415;
+    color: #ffffff;
     font-family: Bender, sans-serif;
     min-height: 100vh;
+    margin: 0;
 }
 
 .content {
